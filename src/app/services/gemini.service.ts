@@ -8,7 +8,7 @@ import { catchError } from 'rxjs/operators';
 })
 export class GeminiService {
   private apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
-  private apiKey = 'AIzaSyC4R0w0YQnXBjAb0Z_ohyT8_u42xpvOcSI'; // Reemplaza con tu API key real
+  private apiKey = '##'; // Reemplaza con tu API key real
 
   constructor(private http: HttpClient) {}
 
